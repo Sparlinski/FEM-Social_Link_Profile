@@ -1,0 +1,109 @@
+/* HTML */
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: hsl(0, 0%, 8%);
+    text-align: center;
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-variation-settings:
+      "slnt" 0;
+}
+
+/* FONT STYLE CODE 
+
+// <uniquifier>: Use a unique and descriptive class name
+// <weight>: Use a value from 100 to 900
+
+.inter-<uniquifier> {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+  font-variation-settings:
+    "slnt" 0;
+}
+
+*/
+
+/* FONTS STYLING AND COLOR */
+
+h1,
+p,
+button {
+    color: hsl(0, 0%, 100%);
+}
+
+h1 {
+    font-size: 1.5rem;
+    margin-bottom: .5em;
+}
+
+h2 {
+    color: hsl(75, 94%, 57%);
+    font-size: .9rem;
+    margin-bottom: 1.5rem;
+}
+
+p {
+    font-size: .75rem;
+}
+/* IMAGES */
+
+img {
+    border-radius: 50%;
+    width: 30%;
+    margin-bottom: 1em;
+}
+
+/* LAYOUT */
+
+.social-card {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 340px;
+    height: 550px;
+    padding: 2em;
+    background-color: hsl(0, 0%, 12%);
+    border-radius: .5rem;
+}
+
+.conatinerA {
+    height: 45%;
+}
+
+.containerB {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 55%;
+}
+
+button {
+    width: 100%;
+    padding: .8em 0 .8em 0;
+    background-color: hsl(0, 0%, 20%);
+    border: none;
+    box-shadow: none;
+    border-radius: .5rem;
+    font-size: .9rem;
+    font-weight: bold;
+}
+
+button:hover {
+    background-color: hsl(75, 94%, 57%);
+    color: hsl(0, 0%, 12%);
+    cursor: pointer;
+}
